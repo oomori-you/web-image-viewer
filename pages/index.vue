@@ -1,29 +1,8 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        web-image-viewer
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div class="container-fluid">
+    <nav class="navbar-header navbar-dark bg-dark mb-2">
+      <a href="#" class="navbar-brand">WebImageViewer</a>
+    </nav>
   </div>
 </template>
 
